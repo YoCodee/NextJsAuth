@@ -4,7 +4,7 @@ import FormRegister from "components/auth/form-register"
 const Register = () => {
   return (
     <div className='p-6 space-y-4'>
-        <h1 className="text-2xl font-bold text-gray-800">Register</h1>
+        <h1 className="text-2xl font-bold text-gray-800">Register Intan Love Jordi</h1>
         <FormRegister/>
     </div>
   )
