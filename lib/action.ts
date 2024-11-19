@@ -35,7 +35,8 @@ export const signUpCredentials = async (
     });
   } catch (error) {
     return {
-      message: "Failed Register User",
+      message:  error instanceof Error ? error.message : "Failed Register User",
+      
     };
   }
 
